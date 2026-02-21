@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated data (large, re-fetchable)
+data/iati_raw/all_crises.json
+data/combined_projects.csv
+
+# Keep the charts for GitHub preview
+# charts/*.png
+
+# Claude workspace
+.claude/
