@@ -34,3 +34,5 @@ data/combined_projects.csv
 
 # Claude workspace
 .claude/
+
+.env
