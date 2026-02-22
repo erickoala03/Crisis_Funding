@@ -10,14 +10,25 @@ from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
 
 from xgboost import XGBRegressor
+import matplotlib
+matplotlib.use("Agg")
 
 # -----------------------------
 # 1) Load data
 # -----------------------------
-PATH = r"C:\Users\carlo\CPHW\un\MASTER_PANEL_FINAL.xlsx"
-# or wherever you saved it
+from pathlib import Path
+import pandas as pd
+
+BASE_DIR = Path(__file__).resolve().parent
+
+# Your data is in Crisis_Funding/data/, not FundingPredictionModels/data/
+PATH = BASE_DIR.parent / "data" / "MASTER_PANEL_FINAL.xlsx"
+
+print("Reading:", PATH)
+print("Exists:", PATH.exists())
+
 df_old = pd.read_excel(PATH)
-df = df_old.drop(columns=["CBPF_Active_Years", "Prior_Year_CBPF" ])
+df = df_old.drop(columns=["CBPF_Active_Years", "Prior_Year_CBPF"])
 
 print(df.columns)
 import numpy as np
@@ -222,6 +233,8 @@ print("rows:", len(df))
 print("Need_Proxy non-null:", df["Need_Proxy"].notna().sum())
 print(df.groupby("Year")["Need_Proxy"].apply(lambda s: s.notna().sum()))
 
+df["Pop_Used"] = df["Pop_Used"].replace([np.inf, -np.inf], np.nan)
+df["Need_Proxy"] = df["Need_Proxy"].replace([np.inf, -np.inf], np.nan)
 
 metrics = []
 for k, (tr, te) in enumerate(splits, start=1):
@@ -332,16 +345,21 @@ if "CBPF_Reached" in df.columns and "Total_CBPF" in df.columns:
 
     df["flag_low_efficiency"] = df["efficiency_robust_z"] < -2.5
     df["flag_high_efficiency"] = df["efficiency_robust_z"] > 2.5
-
+OUT_DIR = BASE_DIR / "outputs"
+OUT_DIR.mkdir(exist_ok=True)
 
 
 import shap
+import matplotlib.pyplot as plt
 
 explainer = shap.Explainer(pipe.named_steps["model"])
 X_trans = pipe.named_steps["preprocess"].transform(X)
 shap_values = explainer(X_trans)
 
-shap.summary_plot(shap_values, X_trans)
+shap.summary_plot(shap_values, X_trans, show=False)
+plt.savefig(OUT_DIR / "shap_summary.png", dpi=150, bbox_inches="tight")
+plt.close()
+print("Wrote: shap_summary.png")
 
 
 
@@ -387,6 +405,141 @@ if "Latitude" in df.columns and "Longitude" in df.columns:
     out_cols += ["Latitude", "Longitude"]
 if "Continent" in df.columns:
     out_cols += ["Continent"]
+# -----------------------------
+# 10) Save scored table for mapping / dashboards
+# -----------------------------
 
-df[out_cols].to_csv("scored_funding_fairness.csv", index=False)
-print("\nWrote: scored_funding_fairness.csv")
+from pathlib import Path
+import pandas as pd
+import numpy as np
+
+BASE_DIR = Path(__file__).resolve().parent
+OUT_DIR = BASE_DIR / "outputs"
+OUT_DIR.mkdir(exist_ok=True)
+
+# --- Drop rows that were never in a test fold (no OOF prediction) ---
+scored = df[df["pred_log"].notna()].copy()
+print(f"\nRows with OOF predictions: {len(scored)} / {len(df)}")
+
+# --- Build out_cols safely (only include columns that actually exist) ---
+base_cols = ["ISO3", "Year", "actual_funding", "pred_funding",
+             "funding_gap", "funding_ratio_gap",
+             "flag_overlooked", "flag_overfunded"]
+optional_cols = ["Latitude", "Longitude", "Continent"]
+
+out_cols = [c for c in base_cols if c in scored.columns]
+out_cols += [c for c in optional_cols if c in scored.columns]
+
+fair_path = OUT_DIR / "scored_funding_fairness.csv"
+scored[out_cols].to_csv(fair_path, index=False)
+print("Wrote:", fair_path)
+# --- Cluster divergence ---
+# --- Cluster divergence ---
+print("\nREACHED CLUSTER BLOCK ✅")
+
+# 1) Load combined sectors/cluster file
+projects_path = BASE_DIR.parent / "data" / "SectorsOverview_Combined.csv"
+print("Reading projects:", projects_path, "Exists:", projects_path.exists())
+
+if not projects_path.exists():
+    print("⚠️  Projects file not found — skipping cluster divergence.")
+else:
+    projects = pd.read_csv(projects_path)
+    print("Projects columns (raw):", list(projects.columns))
+
+    # 2) Normalize column names from your sector overview export
+    # Your screenshot looks like: Year, CBPF Name, Cluster, TotalAlloc..., Targeted..., Reached...
+    # We only need Country, Year, Cluster, Budget
+    rename_map = {}
+
+    if "CBPF Name" in projects.columns:
+        rename_map["CBPF Name"] = "Country"
+    if "TotalAllocation" in projects.columns:
+        rename_map["TotalAllocation"] = "Budget"
+    if "Total Allocations" in projects.columns:
+        rename_map["Total Allocations"] = "Budget"
+    if "Total Allocation" in projects.columns:
+        rename_map["Total Allocation"] = "Budget"
+    if "TotalAlloc" in projects.columns:
+        rename_map["TotalAlloc"] = "Budget"
+    if "TotalAllocated" in projects.columns:
+        rename_map["TotalAllocated"] = "Budget"
+
+projects = projects.rename(columns=rename_map)
+# 1) Validate required columns exist AFTER rename
+required = {"Country", "Year", "Cluster", "Budget"}
+missing = required - set(projects.columns)
+
+if missing:
+    print(f"⚠️  Projects file missing columns {missing} — skipping cluster divergence.")
+else:
+    # 2) Map Country -> ISO3 (ONLY after we know Country exists)
+    import re
+    import pycountry
+
+    def country_to_iso3(name: str):
+        if not isinstance(name, str) or not name.strip():
+            return None
+        n = name.strip()
+
+        # strip RhPF suffix like "Niger (RhPF-WCA)"
+        n = re.sub(r"\s*\(RhPF-[^)]+\)\s*$", "", n).strip()
+
+        overrides = {
+            "CAR": "CAF",
+            "oPt": "PSE",
+            "Syria Cross bordder": "SYR",
+            "Syria Cross border": "SYR",
+            "Democratic Republic of the Congo": "COD",
+            "DRC": "COD",
+        }
+        if n in overrides:
+            return overrides[n]
+
+        try:
+            hit = pycountry.countries.lookup(n)
+            return hit.alpha_3
+        except Exception:
+            return None
+
+    projects["ISO3"] = projects["Country"].apply(country_to_iso3)
+
+    unmapped = projects.loc[projects["ISO3"].isna(), "Country"].unique()
+    if len(unmapped):
+        print("⚠️ Unmapped countries (dropping):", list(unmapped)[:50])
+
+    projects = projects[projects["ISO3"].notna()].copy()
+
+    # 3) Clean types
+    projects["Year"] = pd.to_numeric(projects["Year"], errors="coerce").astype("Int64")
+    projects["Budget"] = pd.to_numeric(projects["Budget"], errors="coerce")
+    projects = projects.dropna(subset=["Year", "Cluster", "Budget"])
+
+    # 4) Aggregate to ISO3-Year-Cluster
+    cluster_share = (
+        projects.groupby(["ISO3", "Year", "Cluster"], as_index=False)["Budget"].sum()
+    )
+
+    total_by_cy = (
+        cluster_share.groupby(["ISO3", "Year"], as_index=False)["Budget"]
+        .sum()
+        .rename(columns={"Budget": "Total"})
+    )
+
+    cluster_share = cluster_share.merge(total_by_cy, on=["ISO3", "Year"], how="left")
+    cluster_share["cluster_frac"] = cluster_share["Budget"] / (cluster_share["Total"] + 1e-9)
+
+    # 5) Merge with model outputs
+    merge_df = scored[["ISO3", "Year", "pred_funding", "actual_funding", "funding_gap"]].drop_duplicates(["ISO3", "Year"])
+    cluster_share = cluster_share.merge(merge_df, on=["ISO3", "Year"], how="left")
+
+    # 6) Compute expected vs actual per cluster
+    cluster_share["expected_cluster_funding"] = cluster_share["pred_funding"] * cluster_share["cluster_frac"]
+    cluster_share["actual_cluster_funding"] = cluster_share["Budget"]
+    cluster_share["cluster_gap"] = cluster_share["actual_cluster_funding"] - cluster_share["expected_cluster_funding"]
+
+    # 7) Write output
+    cluster_path = OUT_DIR / "scored_cluster_divergence.csv"
+    cluster_share.to_csv(cluster_path, index=False)
+    print("Wrote:", cluster_path)
+    print(f"Rows: {len(cluster_share)}, Clusters: {cluster_share['Cluster'].nunique()}")
