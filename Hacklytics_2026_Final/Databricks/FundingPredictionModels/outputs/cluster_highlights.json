@@ -1,0 +1,2030 @@
+[
+  {
+    "target_ISO3": "AFG",
+    "target_Year": 2025,
+    "match_ISO3": "COD",
+    "match_Year": 2025,
+    "match_rank": 1,
+    "risk_distance": 1.0611,
+    "similar_clusters": [
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.176,
+        "match_frac": 0.1773,
+        "target_budget_usd": 12924865.0,
+        "match_budget_usd": 5281500.0,
+        "frac_diff": -0.0013,
+        "abs_diff": 0.0013,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Nutrition",
+        "target_frac": 0.0946,
+        "match_frac": 0.0986,
+        "target_budget_usd": 6949906.39,
+        "match_budget_usd": 2938500.02,
+        "frac_diff": -0.004,
+        "abs_diff": 0.004,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Water, Sanitation and Hygiene",
+        "target_frac": 0.2531,
+        "match_frac": 0.1456,
+        "target_budget_usd": 18587044.53,
+        "match_budget_usd": 4338126.48,
+        "frac_diff": 0.1075,
+        "abs_diff": 0.1075,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Protection",
+        "target_frac": 0.1451,
+        "match_frac": 0.231,
+        "target_budget_usd": 10656474.57,
+        "match_budget_usd": 6882000.12,
+        "frac_diff": -0.0859,
+        "abs_diff": 0.0859,
+        "direction": "UNDER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "AFG",
+    "target_Year": 2025,
+    "match_ISO3": "YEM",
+    "match_Year": 2025,
+    "match_rank": 2,
+    "risk_distance": 1.1368,
+    "similar_clusters": [
+      {
+        "cluster": "Multi-Sector",
+        "target_frac": 0.0567,
+        "match_frac": 0.0439,
+        "target_budget_usd": 4165707.69,
+        "match_budget_usd": 992392.47,
+        "frac_diff": 0.0129,
+        "abs_diff": 0.0129,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Protection",
+        "target_frac": 0.1451,
+        "match_frac": 0.1274,
+        "target_budget_usd": 10656474.57,
+        "match_budget_usd": 2881600.6,
+        "frac_diff": 0.0177,
+        "abs_diff": 0.0177,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Camp Coordination / Management",
+        "target_frac": 0.0,
+        "match_frac": 0.0534,
+        "target_budget_usd": 0.0,
+        "match_budget_usd": 1208390.44,
+        "frac_diff": -0.0534,
+        "abs_diff": 0.0534,
+        "direction": "UNDER-ALLOCATED"
+      },
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.176,
+        "match_frac": 0.228,
+        "target_budget_usd": 12924865.0,
+        "match_budget_usd": 5158423.88,
+        "frac_diff": -0.052,
+        "abs_diff": 0.052,
+        "direction": "UNDER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "BFA",
+    "target_Year": 2025,
+    "match_ISO3": "NER",
+    "match_Year": 2025,
+    "match_rank": 1,
+    "risk_distance": 1.4572,
+    "similar_clusters": [
+      {
+        "cluster": "Water, Sanitation and Hygiene",
+        "target_frac": 0.2173,
+        "match_frac": 0.2201,
+        "target_budget_usd": 1954888.26,
+        "match_budget_usd": 1099969.25,
+        "frac_diff": -0.0028,
+        "abs_diff": 0.0028,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Education",
+        "target_frac": 0.0377,
+        "match_frac": 0.0,
+        "target_budget_usd": 339390.8,
+        "match_budget_usd": 0.0,
+        "frac_diff": 0.0377,
+        "abs_diff": 0.0377,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.2627,
+        "match_frac": 0.4679,
+        "target_budget_usd": 2363250.08,
+        "match_budget_usd": 2338625.34,
+        "frac_diff": -0.2053,
+        "abs_diff": 0.2053,
+        "direction": "UNDER-ALLOCATED"
+      },
+      {
+        "cluster": "Health",
+        "target_frac": 0.0596,
+        "match_frac": 0.187,
+        "target_budget_usd": 536000.0,
+        "match_budget_usd": 934417.75,
+        "frac_diff": -0.1274,
+        "abs_diff": 0.1274,
+        "direction": "UNDER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "BFA",
+    "target_Year": 2025,
+    "match_ISO3": "ETH",
+    "match_Year": 2025,
+    "match_rank": 2,
+    "risk_distance": 1.6811,
+    "similar_clusters": [
+      {
+        "cluster": "Emergency Shelter and NFI",
+        "target_frac": 0.1032,
+        "match_frac": 0.1048,
+        "target_budget_usd": 928325.25,
+        "match_budget_usd": 4634437.05,
+        "frac_diff": -0.0017,
+        "abs_diff": 0.0017,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Camp Coordination / Management",
+        "target_frac": 0.0,
+        "match_frac": 0.0194,
+        "target_budget_usd": 0.0,
+        "match_budget_usd": 857995.54,
+        "frac_diff": -0.0194,
+        "abs_diff": 0.0194,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.2627,
+        "match_frac": 0.0663,
+        "target_budget_usd": 2363250.08,
+        "match_budget_usd": 2929396.22,
+        "frac_diff": 0.1964,
+        "abs_diff": 0.1964,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Health",
+        "target_frac": 0.0596,
+        "match_frac": 0.142,
+        "target_budget_usd": 536000.0,
+        "match_budget_usd": 6276878.8,
+        "frac_diff": -0.0824,
+        "abs_diff": 0.0824,
+        "direction": "UNDER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "CAF",
+    "target_Year": 2025,
+    "match_ISO3": "AFG",
+    "match_Year": 2025,
+    "match_rank": 2,
+    "risk_distance": 1.4866,
+    "similar_clusters": [
+      {
+        "cluster": "Water, Sanitation and Hygiene",
+        "target_frac": 0.2592,
+        "match_frac": 0.2531,
+        "target_budget_usd": 1840500.01,
+        "match_budget_usd": 18587044.53,
+        "frac_diff": 0.0061,
+        "abs_diff": 0.0061,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Nutrition",
+        "target_frac": 0.0718,
+        "match_frac": 0.0946,
+        "target_budget_usd": 510000.0,
+        "match_budget_usd": 6949906.39,
+        "frac_diff": -0.0228,
+        "abs_diff": 0.0228,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Protection",
+        "target_frac": 0.2549,
+        "match_frac": 0.1451,
+        "target_budget_usd": 1810000.0,
+        "match_budget_usd": 10656474.57,
+        "frac_diff": 0.1098,
+        "abs_diff": 0.1098,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Multi-Sector",
+        "target_frac": 0.0,
+        "match_frac": 0.0567,
+        "target_budget_usd": 0.0,
+        "match_budget_usd": 4165707.69,
+        "frac_diff": -0.0567,
+        "abs_diff": 0.0567,
+        "direction": "UNDER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "CAF",
+    "target_Year": 2025,
+    "match_ISO3": "SSD",
+    "match_Year": 2025,
+    "match_rank": 3,
+    "risk_distance": 1.5392,
+    "similar_clusters": [
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.1442,
+        "match_frac": 0.1539,
+        "target_budget_usd": 1024000.0,
+        "match_budget_usd": 6838780.16,
+        "frac_diff": -0.0097,
+        "abs_diff": 0.0097,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Education",
+        "target_frac": 0.0451,
+        "match_frac": 0.0179,
+        "target_budget_usd": 320000.0,
+        "match_budget_usd": 797190.01,
+        "frac_diff": 0.0271,
+        "abs_diff": 0.0271,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Health",
+        "target_frac": 0.112,
+        "match_frac": 0.2576,
+        "target_budget_usd": 795500.0,
+        "match_budget_usd": 11444204.01,
+        "frac_diff": -0.1456,
+        "abs_diff": 0.1456,
+        "direction": "UNDER-ALLOCATED"
+      },
+      {
+        "cluster": "Protection",
+        "target_frac": 0.2549,
+        "match_frac": 0.1147,
+        "target_budget_usd": 1810000.0,
+        "match_budget_usd": 5096572.05,
+        "frac_diff": 0.1402,
+        "abs_diff": 0.1402,
+        "direction": "OVER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "COD",
+    "target_Year": 2025,
+    "match_ISO3": "AFG",
+    "match_Year": 2025,
+    "match_rank": 1,
+    "risk_distance": 1.0611,
+    "similar_clusters": [
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.1773,
+        "match_frac": 0.176,
+        "target_budget_usd": 5281500.0,
+        "match_budget_usd": 12924865.0,
+        "frac_diff": 0.0013,
+        "abs_diff": 0.0013,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Nutrition",
+        "target_frac": 0.0986,
+        "match_frac": 0.0946,
+        "target_budget_usd": 2938500.02,
+        "match_budget_usd": 6949906.39,
+        "frac_diff": 0.004,
+        "abs_diff": 0.004,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Water, Sanitation and Hygiene",
+        "target_frac": 0.1456,
+        "match_frac": 0.2531,
+        "target_budget_usd": 4338126.48,
+        "match_budget_usd": 18587044.53,
+        "frac_diff": -0.1075,
+        "abs_diff": 0.1075,
+        "direction": "UNDER-ALLOCATED"
+      },
+      {
+        "cluster": "Protection",
+        "target_frac": 0.231,
+        "match_frac": 0.1451,
+        "target_budget_usd": 6882000.12,
+        "match_budget_usd": 10656474.57,
+        "frac_diff": 0.0859,
+        "abs_diff": 0.0859,
+        "direction": "OVER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "COD",
+    "target_Year": 2025,
+    "match_ISO3": "YEM",
+    "match_Year": 2025,
+    "match_rank": 2,
+    "risk_distance": 1.2988,
+    "similar_clusters": [
+      {
+        "cluster": "Emergency Shelter and NFI",
+        "target_frac": 0.0822,
+        "match_frac": 0.0813,
+        "target_budget_usd": 2450500.01,
+        "match_budget_usd": 1839424.92,
+        "frac_diff": 0.0009,
+        "abs_diff": 0.0009,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Health",
+        "target_frac": 0.1549,
+        "match_frac": 0.133,
+        "target_budget_usd": 4615000.13,
+        "match_budget_usd": 3009011.51,
+        "frac_diff": 0.0219,
+        "abs_diff": 0.0219,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Protection",
+        "target_frac": 0.231,
+        "match_frac": 0.1274,
+        "target_budget_usd": 6882000.12,
+        "match_budget_usd": 2881600.6,
+        "frac_diff": 0.1036,
+        "abs_diff": 0.1036,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Water, Sanitation and Hygiene",
+        "target_frac": 0.1456,
+        "match_frac": 0.2247,
+        "target_budget_usd": 4338126.48,
+        "match_budget_usd": 5082430.56,
+        "frac_diff": -0.0791,
+        "abs_diff": 0.0791,
+        "direction": "UNDER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "ETH",
+    "target_Year": 2025,
+    "match_ISO3": "NGA",
+    "match_Year": 2025,
+    "match_rank": 1,
+    "risk_distance": 1.3134,
+    "similar_clusters": [
+      {
+        "cluster": "Camp Coordination / Management",
+        "target_frac": 0.0194,
+        "match_frac": 0.0185,
+        "target_budget_usd": 857995.54,
+        "match_budget_usd": 360499.94,
+        "frac_diff": 0.0009,
+        "abs_diff": 0.0009,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Coordination and Support Services",
+        "target_frac": 0.0,
+        "match_frac": 0.0102,
+        "target_budget_usd": 0.0,
+        "match_budget_usd": 199828.61,
+        "frac_diff": -0.0102,
+        "abs_diff": 0.0102,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Nutrition",
+        "target_frac": 0.1415,
+        "match_frac": 0.329,
+        "target_budget_usd": 6256428.33,
+        "match_budget_usd": 6415453.12,
+        "frac_diff": -0.1875,
+        "abs_diff": 0.1875,
+        "direction": "UNDER-ALLOCATED"
+      },
+      {
+        "cluster": "Emergency Shelter and NFI",
+        "target_frac": 0.1048,
+        "match_frac": 0.0031,
+        "target_budget_usd": 4634437.05,
+        "match_budget_usd": 60000.0,
+        "frac_diff": 0.1018,
+        "abs_diff": 0.1018,
+        "direction": "OVER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "ETH",
+    "target_Year": 2025,
+    "match_ISO3": "NER",
+    "match_Year": 2025,
+    "match_rank": 3,
+    "risk_distance": 1.6006,
+    "similar_clusters": [
+      {
+        "cluster": "Camp Coordination / Management",
+        "target_frac": 0.0194,
+        "match_frac": 0.0,
+        "target_budget_usd": 857995.54,
+        "match_budget_usd": 0.0,
+        "frac_diff": 0.0194,
+        "abs_diff": 0.0194,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Multi-purpose CASH",
+        "target_frac": 0.0385,
+        "match_frac": 0.0,
+        "target_budget_usd": 1702981.02,
+        "match_budget_usd": 0.0,
+        "frac_diff": 0.0385,
+        "abs_diff": 0.0385,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.0663,
+        "match_frac": 0.4679,
+        "target_budget_usd": 2929396.22,
+        "match_budget_usd": 2338625.34,
+        "frac_diff": -0.4016,
+        "abs_diff": 0.4016,
+        "direction": "UNDER-ALLOCATED"
+      },
+      {
+        "cluster": "Nutrition",
+        "target_frac": 0.1415,
+        "match_frac": 0.0,
+        "target_budget_usd": 6256428.33,
+        "match_budget_usd": 0.0,
+        "frac_diff": 0.1415,
+        "abs_diff": 0.1415,
+        "direction": "OVER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "HTI",
+    "target_Year": 2025,
+    "match_ISO3": "NGA",
+    "match_Year": 2025,
+    "match_rank": 2,
+    "risk_distance": 2.7209,
+    "similar_clusters": [
+      {
+        "cluster": "Coordination and Support Services",
+        "target_frac": 0.0,
+        "match_frac": 0.0102,
+        "target_budget_usd": 0.0,
+        "match_budget_usd": 199828.61,
+        "frac_diff": -0.0102,
+        "abs_diff": 0.0102,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Camp Coordination / Management",
+        "target_frac": 0.0,
+        "match_frac": 0.0185,
+        "target_budget_usd": 0.0,
+        "match_budget_usd": 360499.94,
+        "frac_diff": -0.0185,
+        "abs_diff": 0.0185,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Nutrition",
+        "target_frac": 0.0763,
+        "match_frac": 0.329,
+        "target_budget_usd": 164996.57,
+        "match_budget_usd": 6415453.12,
+        "frac_diff": -0.2527,
+        "abs_diff": 0.2527,
+        "direction": "UNDER-ALLOCATED"
+      },
+      {
+        "cluster": "Education",
+        "target_frac": 0.175,
+        "match_frac": 0.0,
+        "target_budget_usd": 378411.83,
+        "match_budget_usd": 0.0,
+        "frac_diff": 0.175,
+        "abs_diff": 0.175,
+        "direction": "OVER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "HTI",
+    "target_Year": 2025,
+    "match_ISO3": "COD",
+    "match_Year": 2025,
+    "match_rank": 3,
+    "risk_distance": 2.7406,
+    "similar_clusters": [
+      {
+        "cluster": "Nutrition",
+        "target_frac": 0.0763,
+        "match_frac": 0.0986,
+        "target_budget_usd": 164996.57,
+        "match_budget_usd": 2938500.02,
+        "frac_diff": -0.0223,
+        "abs_diff": 0.0223,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Protection",
+        "target_frac": 0.2815,
+        "match_frac": 0.231,
+        "target_budget_usd": 608712.47,
+        "match_budget_usd": 6882000.12,
+        "frac_diff": 0.0505,
+        "abs_diff": 0.0505,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Education",
+        "target_frac": 0.175,
+        "match_frac": 0.0348,
+        "target_budget_usd": 378411.83,
+        "match_budget_usd": 1037000.09,
+        "frac_diff": 0.1402,
+        "abs_diff": 0.1402,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.0694,
+        "match_frac": 0.1773,
+        "target_budget_usd": 150000.0,
+        "match_budget_usd": 5281500.0,
+        "frac_diff": -0.1079,
+        "abs_diff": 0.1079,
+        "direction": "UNDER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "LBN",
+    "target_Year": 2025,
+    "match_ISO3": "PSE",
+    "match_Year": 2025,
+    "match_rank": 1,
+    "risk_distance": 2.2439,
+    "similar_clusters": [
+      {
+        "cluster": "Nutrition",
+        "target_frac": 0.0158,
+        "match_frac": 0.0197,
+        "target_budget_usd": 554782.08,
+        "match_budget_usd": 1300001.22,
+        "frac_diff": -0.0039,
+        "abs_diff": 0.0039,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Protection",
+        "target_frac": 0.0988,
+        "match_frac": 0.1159,
+        "target_budget_usd": 3468477.9,
+        "match_budget_usd": 7643527.77,
+        "frac_diff": -0.0171,
+        "abs_diff": 0.0171,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.3044,
+        "match_frac": 0.1542,
+        "target_budget_usd": 10680963.56,
+        "match_budget_usd": 10169360.91,
+        "frac_diff": 0.1501,
+        "abs_diff": 0.1501,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Multi-purpose CASH",
+        "target_frac": 0.0,
+        "match_frac": 0.1466,
+        "target_budget_usd": 0.0,
+        "match_budget_usd": 9666594.15,
+        "frac_diff": -0.1466,
+        "abs_diff": 0.1466,
+        "direction": "UNDER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "LBN",
+    "target_Year": 2025,
+    "match_ISO3": "UKR",
+    "match_Year": 2025,
+    "match_rank": 2,
+    "risk_distance": 2.6386,
+    "similar_clusters": [
+      {
+        "cluster": "Education",
+        "target_frac": 0.0131,
+        "match_frac": 0.0288,
+        "target_budget_usd": 461321.08,
+        "match_budget_usd": 5791172.31,
+        "frac_diff": -0.0156,
+        "abs_diff": 0.0156,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Nutrition",
+        "target_frac": 0.0158,
+        "match_frac": 0.0,
+        "target_budget_usd": 554782.08,
+        "match_budget_usd": 0.0,
+        "frac_diff": 0.0158,
+        "abs_diff": 0.0158,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.3044,
+        "match_frac": 0.0205,
+        "target_budget_usd": 10680963.56,
+        "match_budget_usd": 4116818.14,
+        "frac_diff": 0.2839,
+        "abs_diff": 0.2839,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Emergency Shelter and NFI",
+        "target_frac": 0.1082,
+        "match_frac": 0.3268,
+        "target_budget_usd": 3797413.74,
+        "match_budget_usd": 65761636.67,
+        "frac_diff": -0.2186,
+        "abs_diff": 0.2186,
+        "direction": "UNDER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "MLI",
+    "target_Year": 2025,
+    "match_ISO3": "NGA",
+    "match_Year": 2025,
+    "match_rank": 1,
+    "risk_distance": 1.4602,
+    "similar_clusters": [
+      {
+        "cluster": "Coordination and Support Services",
+        "target_frac": 0.0,
+        "match_frac": 0.0102,
+        "target_budget_usd": 0.0,
+        "match_budget_usd": 199828.61,
+        "frac_diff": -0.0102,
+        "abs_diff": 0.0102,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Camp Coordination / Management",
+        "target_frac": 0.0,
+        "match_frac": 0.0185,
+        "target_budget_usd": 0.0,
+        "match_budget_usd": 360499.94,
+        "frac_diff": -0.0185,
+        "abs_diff": 0.0185,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Emergency Shelter and NFI",
+        "target_frac": 0.321,
+        "match_frac": 0.0031,
+        "target_budget_usd": 2572281.24,
+        "match_budget_usd": 60000.0,
+        "frac_diff": 0.318,
+        "abs_diff": 0.318,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.4135,
+        "match_frac": 0.1128,
+        "target_budget_usd": 3313143.19,
+        "match_budget_usd": 2199500.42,
+        "frac_diff": 0.3007,
+        "abs_diff": 0.3007,
+        "direction": "OVER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "MLI",
+    "target_Year": 2025,
+    "match_ISO3": "ETH",
+    "match_Year": 2025,
+    "match_rank": 3,
+    "risk_distance": 1.8722,
+    "similar_clusters": [
+      {
+        "cluster": "Camp Coordination / Management",
+        "target_frac": 0.0,
+        "match_frac": 0.0194,
+        "target_budget_usd": 0.0,
+        "match_budget_usd": 857995.54,
+        "frac_diff": -0.0194,
+        "abs_diff": 0.0194,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Water, Sanitation and Hygiene",
+        "target_frac": 0.1466,
+        "match_frac": 0.1679,
+        "target_budget_usd": 1174286.51,
+        "match_budget_usd": 7423490.29,
+        "frac_diff": -0.0214,
+        "abs_diff": 0.0214,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.4135,
+        "match_frac": 0.0663,
+        "target_budget_usd": 3313143.19,
+        "match_budget_usd": 2929396.22,
+        "frac_diff": 0.3472,
+        "abs_diff": 0.3472,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Protection",
+        "target_frac": 0.0,
+        "match_frac": 0.2289,
+        "target_budget_usd": 0.0,
+        "match_budget_usd": 10119293.63,
+        "frac_diff": -0.2289,
+        "abs_diff": 0.2289,
+        "direction": "UNDER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "MMR",
+    "target_Year": 2025,
+    "match_ISO3": "SDN",
+    "match_Year": 2025,
+    "match_rank": 1,
+    "risk_distance": 1.5469,
+    "similar_clusters": [
+      {
+        "cluster": "Coordination and Support Services",
+        "target_frac": 0.0,
+        "match_frac": 0.0148,
+        "target_budget_usd": 0.0,
+        "match_budget_usd": 2000000.6,
+        "frac_diff": -0.0148,
+        "abs_diff": 0.0148,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Water, Sanitation and Hygiene",
+        "target_frac": 0.1596,
+        "match_frac": 0.1856,
+        "target_budget_usd": 5720941.2,
+        "match_budget_usd": 25091801.27,
+        "frac_diff": -0.026,
+        "abs_diff": 0.026,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Multi-purpose CASH",
+        "target_frac": 0.245,
+        "match_frac": 0.0475,
+        "target_budget_usd": 8782236.23,
+        "match_budget_usd": 6422750.01,
+        "frac_diff": 0.1975,
+        "abs_diff": 0.1975,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Health",
+        "target_frac": 0.1095,
+        "match_frac": 0.2062,
+        "target_budget_usd": 3925415.13,
+        "match_budget_usd": 27877349.99,
+        "frac_diff": -0.0967,
+        "abs_diff": 0.0967,
+        "direction": "UNDER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "MMR",
+    "target_Year": 2025,
+    "match_ISO3": "MLI",
+    "match_Year": 2025,
+    "match_rank": 3,
+    "risk_distance": 2.2318,
+    "similar_clusters": [
+      {
+        "cluster": "Water, Sanitation and Hygiene",
+        "target_frac": 0.1596,
+        "match_frac": 0.1466,
+        "target_budget_usd": 5720941.2,
+        "match_budget_usd": 1174286.51,
+        "frac_diff": 0.013,
+        "abs_diff": 0.013,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Nutrition",
+        "target_frac": 0.0488,
+        "match_frac": 0.0335,
+        "target_budget_usd": 1750653.02,
+        "match_budget_usd": 268538.96,
+        "frac_diff": 0.0153,
+        "abs_diff": 0.0153,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.0946,
+        "match_frac": 0.4135,
+        "target_budget_usd": 3391820.33,
+        "match_budget_usd": 3313143.19,
+        "frac_diff": -0.3189,
+        "abs_diff": 0.3189,
+        "direction": "UNDER-ALLOCATED"
+      },
+      {
+        "cluster": "Multi-purpose CASH",
+        "target_frac": 0.245,
+        "match_frac": 0.0,
+        "target_budget_usd": 8782236.23,
+        "match_budget_usd": 0.0,
+        "frac_diff": 0.245,
+        "abs_diff": 0.245,
+        "direction": "OVER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "NER",
+    "target_Year": 2025,
+    "match_ISO3": "BFA",
+    "match_Year": 2025,
+    "match_rank": 1,
+    "risk_distance": 1.4572,
+    "similar_clusters": [
+      {
+        "cluster": "Water, Sanitation and Hygiene",
+        "target_frac": 0.2201,
+        "match_frac": 0.2173,
+        "target_budget_usd": 1099969.25,
+        "match_budget_usd": 1954888.26,
+        "frac_diff": 0.0028,
+        "abs_diff": 0.0028,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Education",
+        "target_frac": 0.0,
+        "match_frac": 0.0377,
+        "target_budget_usd": 0.0,
+        "match_budget_usd": 339390.8,
+        "frac_diff": -0.0377,
+        "abs_diff": 0.0377,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.4679,
+        "match_frac": 0.2627,
+        "target_budget_usd": 2338625.34,
+        "match_budget_usd": 2363250.08,
+        "frac_diff": 0.2053,
+        "abs_diff": 0.2053,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Health",
+        "target_frac": 0.187,
+        "match_frac": 0.0596,
+        "target_budget_usd": 934417.75,
+        "match_budget_usd": 536000.0,
+        "frac_diff": 0.1274,
+        "abs_diff": 0.1274,
+        "direction": "OVER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "NER",
+    "target_Year": 2025,
+    "match_ISO3": "ETH",
+    "match_Year": 2025,
+    "match_rank": 2,
+    "risk_distance": 1.6006,
+    "similar_clusters": [
+      {
+        "cluster": "Camp Coordination / Management",
+        "target_frac": 0.0,
+        "match_frac": 0.0194,
+        "target_budget_usd": 0.0,
+        "match_budget_usd": 857995.54,
+        "frac_diff": -0.0194,
+        "abs_diff": 0.0194,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Multi-purpose CASH",
+        "target_frac": 0.0,
+        "match_frac": 0.0385,
+        "target_budget_usd": 0.0,
+        "match_budget_usd": 1702981.02,
+        "frac_diff": -0.0385,
+        "abs_diff": 0.0385,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.4679,
+        "match_frac": 0.0663,
+        "target_budget_usd": 2338625.34,
+        "match_budget_usd": 2929396.22,
+        "frac_diff": 0.4016,
+        "abs_diff": 0.4016,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Nutrition",
+        "target_frac": 0.0,
+        "match_frac": 0.1415,
+        "target_budget_usd": 0.0,
+        "match_budget_usd": 6256428.33,
+        "frac_diff": -0.1415,
+        "abs_diff": 0.1415,
+        "direction": "UNDER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "NGA",
+    "target_Year": 2025,
+    "match_ISO3": "ETH",
+    "match_Year": 2025,
+    "match_rank": 1,
+    "risk_distance": 1.3134,
+    "similar_clusters": [
+      {
+        "cluster": "Camp Coordination / Management",
+        "target_frac": 0.0185,
+        "match_frac": 0.0194,
+        "target_budget_usd": 360499.94,
+        "match_budget_usd": 857995.54,
+        "frac_diff": -0.0009,
+        "abs_diff": 0.0009,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Coordination and Support Services",
+        "target_frac": 0.0102,
+        "match_frac": 0.0,
+        "target_budget_usd": 199828.61,
+        "match_budget_usd": 0.0,
+        "frac_diff": 0.0102,
+        "abs_diff": 0.0102,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Nutrition",
+        "target_frac": 0.329,
+        "match_frac": 0.1415,
+        "target_budget_usd": 6415453.12,
+        "match_budget_usd": 6256428.33,
+        "frac_diff": 0.1875,
+        "abs_diff": 0.1875,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Emergency Shelter and NFI",
+        "target_frac": 0.0031,
+        "match_frac": 0.1048,
+        "target_budget_usd": 60000.0,
+        "match_budget_usd": 4634437.05,
+        "frac_diff": -0.1018,
+        "abs_diff": 0.1018,
+        "direction": "UNDER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "NGA",
+    "target_Year": 2025,
+    "match_ISO3": "MLI",
+    "match_Year": 2025,
+    "match_rank": 2,
+    "risk_distance": 1.4602,
+    "similar_clusters": [
+      {
+        "cluster": "Coordination and Support Services",
+        "target_frac": 0.0102,
+        "match_frac": 0.0,
+        "target_budget_usd": 199828.61,
+        "match_budget_usd": 0.0,
+        "frac_diff": 0.0102,
+        "abs_diff": 0.0102,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Camp Coordination / Management",
+        "target_frac": 0.0185,
+        "match_frac": 0.0,
+        "target_budget_usd": 360499.94,
+        "match_budget_usd": 0.0,
+        "frac_diff": 0.0185,
+        "abs_diff": 0.0185,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Emergency Shelter and NFI",
+        "target_frac": 0.0031,
+        "match_frac": 0.321,
+        "target_budget_usd": 60000.0,
+        "match_budget_usd": 2572281.24,
+        "frac_diff": -0.318,
+        "abs_diff": 0.318,
+        "direction": "UNDER-ALLOCATED"
+      },
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.1128,
+        "match_frac": 0.4135,
+        "target_budget_usd": 2199500.42,
+        "match_budget_usd": 3313143.19,
+        "frac_diff": -0.3007,
+        "abs_diff": 0.3007,
+        "direction": "UNDER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "PSE",
+    "target_Year": 2025,
+    "match_ISO3": "UKR",
+    "match_Year": 2025,
+    "match_rank": 1,
+    "risk_distance": 1.6474,
+    "similar_clusters": [
+      {
+        "cluster": "Nutrition",
+        "target_frac": 0.0197,
+        "match_frac": 0.0,
+        "target_budget_usd": 1300001.22,
+        "match_budget_usd": 0.0,
+        "frac_diff": 0.0197,
+        "abs_diff": 0.0197,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Education",
+        "target_frac": 0.072,
+        "match_frac": 0.0288,
+        "target_budget_usd": 4749524.44,
+        "match_budget_usd": 5791172.31,
+        "frac_diff": 0.0433,
+        "abs_diff": 0.0433,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Protection",
+        "target_frac": 0.1159,
+        "match_frac": 0.2616,
+        "target_budget_usd": 7643527.77,
+        "match_budget_usd": 52634440.86,
+        "frac_diff": -0.1457,
+        "abs_diff": 0.1457,
+        "direction": "UNDER-ALLOCATED"
+      },
+      {
+        "cluster": "Emergency Shelter and NFI",
+        "target_frac": 0.1836,
+        "match_frac": 0.3268,
+        "target_budget_usd": 12104559.45,
+        "match_budget_usd": 65761636.67,
+        "frac_diff": -0.1432,
+        "abs_diff": 0.1432,
+        "direction": "UNDER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "PSE",
+    "target_Year": 2025,
+    "match_ISO3": "LBN",
+    "match_Year": 2025,
+    "match_rank": 3,
+    "risk_distance": 2.2439,
+    "similar_clusters": [
+      {
+        "cluster": "Nutrition",
+        "target_frac": 0.0197,
+        "match_frac": 0.0158,
+        "target_budget_usd": 1300001.22,
+        "match_budget_usd": 554782.08,
+        "frac_diff": 0.0039,
+        "abs_diff": 0.0039,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Protection",
+        "target_frac": 0.1159,
+        "match_frac": 0.0988,
+        "target_budget_usd": 7643527.77,
+        "match_budget_usd": 3468477.9,
+        "frac_diff": 0.0171,
+        "abs_diff": 0.0171,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.1542,
+        "match_frac": 0.3044,
+        "target_budget_usd": 10169360.91,
+        "match_budget_usd": 10680963.56,
+        "frac_diff": -0.1501,
+        "abs_diff": 0.1501,
+        "direction": "UNDER-ALLOCATED"
+      },
+      {
+        "cluster": "Multi-purpose CASH",
+        "target_frac": 0.1466,
+        "match_frac": 0.0,
+        "target_budget_usd": 9666594.15,
+        "match_budget_usd": 0.0,
+        "frac_diff": 0.1466,
+        "abs_diff": 0.1466,
+        "direction": "OVER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "SDN",
+    "target_Year": 2025,
+    "match_ISO3": "MMR",
+    "match_Year": 2025,
+    "match_rank": 1,
+    "risk_distance": 1.5469,
+    "similar_clusters": [
+      {
+        "cluster": "Coordination and Support Services",
+        "target_frac": 0.0148,
+        "match_frac": 0.0,
+        "target_budget_usd": 2000000.6,
+        "match_budget_usd": 0.0,
+        "frac_diff": 0.0148,
+        "abs_diff": 0.0148,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Water, Sanitation and Hygiene",
+        "target_frac": 0.1856,
+        "match_frac": 0.1596,
+        "target_budget_usd": 25091801.27,
+        "match_budget_usd": 5720941.2,
+        "frac_diff": 0.026,
+        "abs_diff": 0.026,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Multi-purpose CASH",
+        "target_frac": 0.0475,
+        "match_frac": 0.245,
+        "target_budget_usd": 6422750.01,
+        "match_budget_usd": 8782236.23,
+        "frac_diff": -0.1975,
+        "abs_diff": 0.1975,
+        "direction": "UNDER-ALLOCATED"
+      },
+      {
+        "cluster": "Health",
+        "target_frac": 0.2062,
+        "match_frac": 0.1095,
+        "target_budget_usd": 27877349.99,
+        "match_budget_usd": 3925415.13,
+        "frac_diff": 0.0967,
+        "abs_diff": 0.0967,
+        "direction": "OVER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "SDN",
+    "target_Year": 2025,
+    "match_ISO3": "AFG",
+    "match_Year": 2025,
+    "match_rank": 2,
+    "risk_distance": 2.0661,
+    "similar_clusters": [
+      {
+        "cluster": "Emergency Shelter and NFI",
+        "target_frac": 0.1008,
+        "match_frac": 0.1063,
+        "target_budget_usd": 13622229.98,
+        "match_budget_usd": 7806545.6,
+        "frac_diff": -0.0055,
+        "abs_diff": 0.0055,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Nutrition",
+        "target_frac": 0.1074,
+        "match_frac": 0.0946,
+        "target_budget_usd": 14511427.55,
+        "match_budget_usd": 6949906.39,
+        "frac_diff": 0.0127,
+        "abs_diff": 0.0127,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Water, Sanitation and Hygiene",
+        "target_frac": 0.1856,
+        "match_frac": 0.2531,
+        "target_budget_usd": 25091801.27,
+        "match_budget_usd": 18587044.53,
+        "frac_diff": -0.0675,
+        "abs_diff": 0.0675,
+        "direction": "UNDER-ALLOCATED"
+      },
+      {
+        "cluster": "Protection",
+        "target_frac": 0.2061,
+        "match_frac": 0.1451,
+        "target_budget_usd": 27855750.96,
+        "match_budget_usd": 10656474.57,
+        "frac_diff": 0.061,
+        "abs_diff": 0.061,
+        "direction": "OVER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "SDN",
+    "target_Year": 2025,
+    "match_ISO3": "BFA",
+    "match_Year": 2025,
+    "match_rank": 3,
+    "risk_distance": 2.1995,
+    "similar_clusters": [
+      {
+        "cluster": "Protection",
+        "target_frac": 0.2061,
+        "match_frac": 0.2047,
+        "target_budget_usd": 27855750.96,
+        "match_budget_usd": 1841904.29,
+        "frac_diff": 0.0014,
+        "abs_diff": 0.0014,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Emergency Shelter and NFI",
+        "target_frac": 0.1008,
+        "match_frac": 0.1032,
+        "target_budget_usd": 13622229.98,
+        "match_budget_usd": 928325.25,
+        "frac_diff": -0.0024,
+        "abs_diff": 0.0024,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Health",
+        "target_frac": 0.2062,
+        "match_frac": 0.0596,
+        "target_budget_usd": 27877349.99,
+        "match_budget_usd": 536000.0,
+        "frac_diff": 0.1467,
+        "abs_diff": 0.1467,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.1278,
+        "match_frac": 0.2627,
+        "target_budget_usd": 17275142.68,
+        "match_budget_usd": 2363250.08,
+        "frac_diff": -0.1349,
+        "abs_diff": 0.1349,
+        "direction": "UNDER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "SOM",
+    "target_Year": 2025,
+    "match_ISO3": "YEM",
+    "match_Year": 2025,
+    "match_rank": 1,
+    "risk_distance": 1.5863,
+    "similar_clusters": [
+      {
+        "cluster": "Multi-Sector",
+        "target_frac": 0.0253,
+        "match_frac": 0.0439,
+        "target_budget_usd": 1450112.84,
+        "match_budget_usd": 992392.47,
+        "frac_diff": -0.0185,
+        "abs_diff": 0.0185,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Multi-purpose CASH",
+        "target_frac": 0.0,
+        "match_frac": 0.032,
+        "target_budget_usd": 0.0,
+        "match_budget_usd": 723616.07,
+        "frac_diff": -0.032,
+        "abs_diff": 0.032,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Nutrition",
+        "target_frac": 0.1838,
+        "match_frac": 0.0683,
+        "target_budget_usd": 10520683.63,
+        "match_budget_usd": 1545061.13,
+        "frac_diff": 0.1155,
+        "abs_diff": 0.1155,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Protection",
+        "target_frac": 0.0355,
+        "match_frac": 0.1274,
+        "target_budget_usd": 2029565.57,
+        "match_budget_usd": 2881600.6,
+        "frac_diff": -0.0919,
+        "abs_diff": 0.0919,
+        "direction": "UNDER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "SOM",
+    "target_Year": 2025,
+    "match_ISO3": "COD",
+    "match_Year": 2025,
+    "match_rank": 2,
+    "risk_distance": 1.8132,
+    "similar_clusters": [
+      {
+        "cluster": "Health",
+        "target_frac": 0.1863,
+        "match_frac": 0.1549,
+        "target_budget_usd": 10664259.44,
+        "match_budget_usd": 4615000.13,
+        "frac_diff": 0.0314,
+        "abs_diff": 0.0314,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Education",
+        "target_frac": 0.0,
+        "match_frac": 0.0348,
+        "target_budget_usd": 0.0,
+        "match_budget_usd": 1037000.09,
+        "frac_diff": -0.0348,
+        "abs_diff": 0.0348,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Protection",
+        "target_frac": 0.0355,
+        "match_frac": 0.231,
+        "target_budget_usd": 2029565.57,
+        "match_budget_usd": 6882000.12,
+        "frac_diff": -0.1955,
+        "abs_diff": 0.1955,
+        "direction": "UNDER-ALLOCATED"
+      },
+      {
+        "cluster": "Water, Sanitation and Hygiene",
+        "target_frac": 0.2793,
+        "match_frac": 0.1456,
+        "target_budget_usd": 15987502.42,
+        "match_budget_usd": 4338126.48,
+        "frac_diff": 0.1337,
+        "abs_diff": 0.1337,
+        "direction": "OVER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "SSD",
+    "target_Year": 2025,
+    "match_ISO3": "CAF",
+    "match_Year": 2025,
+    "match_rank": 1,
+    "risk_distance": 1.5392,
+    "similar_clusters": [
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.1539,
+        "match_frac": 0.1442,
+        "target_budget_usd": 6838780.16,
+        "match_budget_usd": 1024000.0,
+        "frac_diff": 0.0097,
+        "abs_diff": 0.0097,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Education",
+        "target_frac": 0.0179,
+        "match_frac": 0.0451,
+        "target_budget_usd": 797190.01,
+        "match_budget_usd": 320000.0,
+        "frac_diff": -0.0271,
+        "abs_diff": 0.0271,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Health",
+        "target_frac": 0.2576,
+        "match_frac": 0.112,
+        "target_budget_usd": 11444204.01,
+        "match_budget_usd": 795500.0,
+        "frac_diff": 0.1456,
+        "abs_diff": 0.1456,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Protection",
+        "target_frac": 0.1147,
+        "match_frac": 0.2549,
+        "target_budget_usd": 5096572.05,
+        "match_budget_usd": 1810000.0,
+        "frac_diff": -0.1402,
+        "abs_diff": 0.1402,
+        "direction": "UNDER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "SSD",
+    "target_Year": 2025,
+    "match_ISO3": "AFG",
+    "match_Year": 2025,
+    "match_rank": 2,
+    "risk_distance": 1.5674,
+    "similar_clusters": [
+      {
+        "cluster": "Education",
+        "target_frac": 0.0179,
+        "match_frac": 0.0,
+        "target_budget_usd": 797190.01,
+        "match_budget_usd": 0.0,
+        "frac_diff": 0.0179,
+        "abs_diff": 0.0179,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Emergency Shelter and NFI",
+        "target_frac": 0.0843,
+        "match_frac": 0.1063,
+        "target_budget_usd": 3743503.52,
+        "match_budget_usd": 7806545.6,
+        "frac_diff": -0.022,
+        "abs_diff": 0.022,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Health",
+        "target_frac": 0.2576,
+        "match_frac": 0.1681,
+        "target_budget_usd": 11444204.01,
+        "match_budget_usd": 12348199.18,
+        "frac_diff": 0.0895,
+        "abs_diff": 0.0895,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Multi-Sector",
+        "target_frac": 0.0,
+        "match_frac": 0.0567,
+        "target_budget_usd": 0.0,
+        "match_budget_usd": 4165707.69,
+        "frac_diff": -0.0567,
+        "abs_diff": 0.0567,
+        "direction": "UNDER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "SSD",
+    "target_Year": 2025,
+    "match_ISO3": "YEM",
+    "match_Year": 2025,
+    "match_rank": 3,
+    "risk_distance": 1.9597,
+    "similar_clusters": [
+      {
+        "cluster": "Emergency Shelter and NFI",
+        "target_frac": 0.0843,
+        "match_frac": 0.0813,
+        "target_budget_usd": 3743503.52,
+        "match_budget_usd": 1839424.92,
+        "frac_diff": 0.003,
+        "abs_diff": 0.003,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Water, Sanitation and Hygiene",
+        "target_frac": 0.2207,
+        "match_frac": 0.2247,
+        "target_budget_usd": 9805851.07,
+        "match_budget_usd": 5082430.56,
+        "frac_diff": -0.0039,
+        "abs_diff": 0.0039,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Health",
+        "target_frac": 0.2576,
+        "match_frac": 0.133,
+        "target_budget_usd": 11444204.01,
+        "match_budget_usd": 3009011.51,
+        "frac_diff": 0.1246,
+        "abs_diff": 0.1246,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.1539,
+        "match_frac": 0.228,
+        "target_budget_usd": 6838780.16,
+        "match_budget_usd": 5158423.88,
+        "frac_diff": -0.0741,
+        "abs_diff": 0.0741,
+        "direction": "UNDER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "SYR",
+    "target_Year": 2025,
+    "match_ISO3": "YEM",
+    "match_Year": 2025,
+    "match_rank": 1,
+    "risk_distance": 1.1878,
+    "similar_clusters": [
+      {
+        "cluster": "Health",
+        "target_frac": 0.123,
+        "match_frac": 0.133,
+        "target_budget_usd": 12151131.84,
+        "match_budget_usd": 3009011.51,
+        "frac_diff": -0.01,
+        "abs_diff": 0.01,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Protection",
+        "target_frac": 0.1112,
+        "match_frac": 0.1274,
+        "target_budget_usd": 10987683.98,
+        "match_budget_usd": 2881600.6,
+        "frac_diff": -0.0161,
+        "abs_diff": 0.0161,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.1023,
+        "match_frac": 0.228,
+        "target_budget_usd": 10106507.7,
+        "match_budget_usd": 5158423.88,
+        "frac_diff": -0.1257,
+        "abs_diff": 0.1257,
+        "direction": "UNDER-ALLOCATED"
+      },
+      {
+        "cluster": "Early Recovery",
+        "target_frac": 0.0879,
+        "match_frac": 0.0,
+        "target_budget_usd": 8686509.48,
+        "match_budget_usd": 0.0,
+        "frac_diff": 0.0879,
+        "abs_diff": 0.0879,
+        "direction": "OVER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "SYR",
+    "target_Year": 2025,
+    "match_ISO3": "COD",
+    "match_Year": 2025,
+    "match_rank": 2,
+    "risk_distance": 1.4646,
+    "similar_clusters": [
+      {
+        "cluster": "Camp Coordination / Management",
+        "target_frac": 0.0158,
+        "match_frac": 0.0,
+        "target_budget_usd": 1562738.86,
+        "match_budget_usd": 0.0,
+        "frac_diff": 0.0158,
+        "abs_diff": 0.0158,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Health",
+        "target_frac": 0.123,
+        "match_frac": 0.1549,
+        "target_budget_usd": 12151131.84,
+        "match_budget_usd": 4615000.13,
+        "frac_diff": -0.0319,
+        "abs_diff": 0.0319,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Protection",
+        "target_frac": 0.1112,
+        "match_frac": 0.231,
+        "target_budget_usd": 10987683.98,
+        "match_budget_usd": 6882000.12,
+        "frac_diff": -0.1197,
+        "abs_diff": 0.1197,
+        "direction": "UNDER-ALLOCATED"
+      },
+      {
+        "cluster": "Multi-purpose CASH",
+        "target_frac": 0.1004,
+        "match_frac": 0.0,
+        "target_budget_usd": 9916701.55,
+        "match_budget_usd": 0.0,
+        "frac_diff": 0.1004,
+        "abs_diff": 0.1004,
+        "direction": "OVER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "SYR",
+    "target_Year": 2025,
+    "match_ISO3": "AFG",
+    "match_Year": 2025,
+    "match_rank": 3,
+    "risk_distance": 1.6484,
+    "similar_clusters": [
+      {
+        "cluster": "Camp Coordination / Management",
+        "target_frac": 0.0158,
+        "match_frac": 0.0,
+        "target_budget_usd": 1562738.86,
+        "match_budget_usd": 0.0,
+        "frac_diff": 0.0158,
+        "abs_diff": 0.0158,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Protection",
+        "target_frac": 0.1112,
+        "match_frac": 0.1451,
+        "target_budget_usd": 10987683.98,
+        "match_budget_usd": 10656474.57,
+        "frac_diff": -0.0339,
+        "abs_diff": 0.0339,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Multi-purpose CASH",
+        "target_frac": 0.1004,
+        "match_frac": 0.0,
+        "target_budget_usd": 9916701.55,
+        "match_budget_usd": 0.0,
+        "frac_diff": 0.1004,
+        "abs_diff": 0.1004,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Education",
+        "target_frac": 0.0951,
+        "match_frac": 0.0,
+        "target_budget_usd": 9390084.66,
+        "match_budget_usd": 0.0,
+        "frac_diff": 0.0951,
+        "abs_diff": 0.0951,
+        "direction": "OVER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "UKR",
+    "target_Year": 2025,
+    "match_ISO3": "PSE",
+    "match_Year": 2025,
+    "match_rank": 2,
+    "risk_distance": 1.6474,
+    "similar_clusters": [
+      {
+        "cluster": "Nutrition",
+        "target_frac": 0.0,
+        "match_frac": 0.0197,
+        "target_budget_usd": 0.0,
+        "match_budget_usd": 1300001.22,
+        "frac_diff": -0.0197,
+        "abs_diff": 0.0197,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Education",
+        "target_frac": 0.0288,
+        "match_frac": 0.072,
+        "target_budget_usd": 5791172.31,
+        "match_budget_usd": 4749524.44,
+        "frac_diff": -0.0433,
+        "abs_diff": 0.0433,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Protection",
+        "target_frac": 0.2616,
+        "match_frac": 0.1159,
+        "target_budget_usd": 52634440.86,
+        "match_budget_usd": 7643527.77,
+        "frac_diff": 0.1457,
+        "abs_diff": 0.1457,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Emergency Shelter and NFI",
+        "target_frac": 0.3268,
+        "match_frac": 0.1836,
+        "target_budget_usd": 65761636.67,
+        "match_budget_usd": 12104559.45,
+        "frac_diff": 0.1432,
+        "abs_diff": 0.1432,
+        "direction": "OVER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "YEM",
+    "target_Year": 2025,
+    "match_ISO3": "AFG",
+    "match_Year": 2025,
+    "match_rank": 1,
+    "risk_distance": 1.1368,
+    "similar_clusters": [
+      {
+        "cluster": "Multi-Sector",
+        "target_frac": 0.0439,
+        "match_frac": 0.0567,
+        "target_budget_usd": 992392.47,
+        "match_budget_usd": 4165707.69,
+        "frac_diff": -0.0129,
+        "abs_diff": 0.0129,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Protection",
+        "target_frac": 0.1274,
+        "match_frac": 0.1451,
+        "target_budget_usd": 2881600.6,
+        "match_budget_usd": 10656474.57,
+        "frac_diff": -0.0177,
+        "abs_diff": 0.0177,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Camp Coordination / Management",
+        "target_frac": 0.0534,
+        "match_frac": 0.0,
+        "target_budget_usd": 1208390.44,
+        "match_budget_usd": 0.0,
+        "frac_diff": 0.0534,
+        "abs_diff": 0.0534,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.228,
+        "match_frac": 0.176,
+        "target_budget_usd": 5158423.88,
+        "match_budget_usd": 12924865.0,
+        "frac_diff": 0.052,
+        "abs_diff": 0.052,
+        "direction": "OVER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "YEM",
+    "target_Year": 2025,
+    "match_ISO3": "SYR",
+    "match_Year": 2025,
+    "match_rank": 2,
+    "risk_distance": 1.1878,
+    "similar_clusters": [
+      {
+        "cluster": "Health",
+        "target_frac": 0.133,
+        "match_frac": 0.123,
+        "target_budget_usd": 3009011.51,
+        "match_budget_usd": 12151131.84,
+        "frac_diff": 0.01,
+        "abs_diff": 0.01,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Protection",
+        "target_frac": 0.1274,
+        "match_frac": 0.1112,
+        "target_budget_usd": 2881600.6,
+        "match_budget_usd": 10987683.98,
+        "frac_diff": 0.0161,
+        "abs_diff": 0.0161,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Food Security",
+        "target_frac": 0.228,
+        "match_frac": 0.1023,
+        "target_budget_usd": 5158423.88,
+        "match_budget_usd": 10106507.7,
+        "frac_diff": 0.1257,
+        "abs_diff": 0.1257,
+        "direction": "OVER-ALLOCATED"
+      },
+      {
+        "cluster": "Early Recovery",
+        "target_frac": 0.0,
+        "match_frac": 0.0879,
+        "target_budget_usd": 0.0,
+        "match_budget_usd": 8686509.48,
+        "frac_diff": -0.0879,
+        "abs_diff": 0.0879,
+        "direction": "UNDER-ALLOCATED"
+      }
+    ]
+  },
+  {
+    "target_ISO3": "YEM",
+    "target_Year": 2025,
+    "match_ISO3": "COD",
+    "match_Year": 2025,
+    "match_rank": 3,
+    "risk_distance": 1.2988,
+    "similar_clusters": [
+      {
+        "cluster": "Emergency Shelter and NFI",
+        "target_frac": 0.0813,
+        "match_frac": 0.0822,
+        "target_budget_usd": 1839424.92,
+        "match_budget_usd": 2450500.01,
+        "frac_diff": -0.0009,
+        "abs_diff": 0.0009,
+        "direction": "SIMILAR"
+      },
+      {
+        "cluster": "Health",
+        "target_frac": 0.133,
+        "match_frac": 0.1549,
+        "target_budget_usd": 3009011.51,
+        "match_budget_usd": 4615000.13,
+        "frac_diff": -0.0219,
+        "abs_diff": 0.0219,
+        "direction": "SIMILAR"
+      }
+    ],
+    "divergent_clusters": [
+      {
+        "cluster": "Protection",
+        "target_frac": 0.1274,
+        "match_frac": 0.231,
+        "target_budget_usd": 2881600.6,
+        "match_budget_usd": 6882000.12,
+        "frac_diff": -0.1036,
+        "abs_diff": 0.1036,
+        "direction": "UNDER-ALLOCATED"
+      },
+      {
+        "cluster": "Water, Sanitation and Hygiene",
+        "target_frac": 0.2247,
+        "match_frac": 0.1456,
+        "target_budget_usd": 5082430.56,
+        "match_budget_usd": 4338126.48,
+        "frac_diff": 0.0791,
+        "abs_diff": 0.0791,
+        "direction": "OVER-ALLOCATED"
+      }
+    ]
+  }
+]
